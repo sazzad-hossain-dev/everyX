@@ -8,24 +8,18 @@
 }
 
 body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
+    background-color: #fafafa;
+    padding: 34px 19px 0 19px;
     font-family: "Inter", sans-serif;
 }
 
-/* Layout Wrapper */
 .container {
-    width: 393px;
-    background-color: #FAFAFA;
-    padding: 34px 19px 0 19px;
-    position: relative;
+    width: 100%;
 }
 
-/* Card Component */
 .card {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 4px;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
     display: flex;
@@ -90,12 +84,11 @@ body {
     justify-content: center;
     align-items: center;
     border: none;
-    margin-top: 26px;
-    margin-bottom: 29px;
+    margin: 26px 0 29px 0;
     width: 113px;
     height: 30px;
     background-color: #808080;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 500;
     font-size: 10px;
     cursor: pointer;
@@ -109,13 +102,15 @@ body {
     padding-bottom: 37px;
 }
 
-.confirmation-link span {
+.confirmation-link a {
     color: #000000;
+    text-decoration: underline;
 }
 
 /* Footer Section */
 .footer {
-    width: 100%;
+    text-align: center;
+    padding: 0 16px;
 }
 
 .social-icons {
@@ -125,39 +120,43 @@ body {
     margin-top: 32px;
 }
 
-.social-icons img {
+.social-icons a img {
     width: 26.6px;
     height: 26.6px;
     cursor: pointer;
 }
 
 .footer-links {
-    font-size: 9px;
-    font-weight: 300;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 20px;
     color: #808080;
-    text-align: center;
-    margin-top: 27.4px;
-    margin-bottom: 29px;
-    text-decoration: underline;
 }
 
-.footer-note {
-    display: flex;
-    width: 355px;
-    height: 44px;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 30px;
+.footer-links a {
+    text-decoration: underline;
+    color: #808080;
+    margin: 0 5px;
+    transition: color 0.3s;
 }
+
+
 
 .note-text {
     font-size: 9px;
     font-weight: 400;
     color: #595959;
     text-align: center;
+    line-height: 1.4;
 }
 
-.note-text span {
+.note-text a {
     color: #006996;
     text-decoration: underline;
+}
+
+.note-text-last {
+    margin-top: 12px;
+    margin-bottom: 30px;
 }
