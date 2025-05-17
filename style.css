@@ -89,6 +89,31 @@ body {
   cursor: pointer;
 }
 
+.verification-code-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    column-gap: 5px;
+    margin: 23px 0 28px 0;
+}
+
+.code-input {
+    width: 25px;
+    height: 28px;    
+    background-color: #F0F0F0; 
+    text-align: center;
+    font-size: 16px; 
+    color: #808080; 
+    border: none;
+    outline: none;
+}
+
+
+.separator {
+    font-size: 16px; 
+    color: #808080;
+}
+
 .confirmation-link {
   font-size: 9px;
   font-weight: 300;
@@ -97,7 +122,7 @@ body {
   padding-bottom: 37px;
 }
 
-.confirmation-link a {
+.confirmation-link a,span {
   color: #000000;
 }
 
@@ -112,11 +137,15 @@ body {
   gap: 23px;
   margin-top: 32px;
 }
-
-.social-icons a img {
+.social-icons a {
   width: 26.6px;
   height: 26.6px;
   cursor: pointer;
+  background: #D8D8D8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-links {
