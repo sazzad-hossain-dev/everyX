@@ -73,7 +73,18 @@ body {
   max-width: 251px;
   margin-top: 23px;
 }
-
+.card-extra-content {
+  width: 304px;
+  height: 190px; 
+  background-color: #EAEAEA; 
+  border-radius: 10px;
+  margin: 23px 0px 0px 0px;
+}
+.btn-container {
+  display: flex;
+  gap: 6px;
+  margin-top: 5px;
+}
 .btn-primary {
   display: flex;
   justify-content: center;
@@ -88,13 +99,18 @@ body {
   font-size: 10px;
   cursor: pointer;
 }
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #000000;
+}
 
 .verification-code-container {
     display: flex;
     align-items: center; 
     justify-content: center;
     column-gap: 5px;
-    margin: 23px 0 28px 0;
+    margin: 23px 0 0 0;
 }
 
 .code-input {
