@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
@@ -9,21 +9,28 @@
 
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
     font-family: "Inter", sans-serif;
 }
 
-.page-wrapper {
+/* Layout Wrapper */
+.container {
     width: 393px;
     background-color: #FAFAFA;
-    padding: 34px 19px 20px 19px;
+    padding: 34px 19px 0 19px;
     position: relative;
 }
 
+/* Card Component */
 .card {
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 4px;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
 }
 
@@ -38,7 +45,7 @@ body {
     border-radius: 4px;
 }
 
-.card-header {
+.card-logo {
     width: 119px;
     height: 28.09px;
     margin: 0 auto;
@@ -51,7 +58,7 @@ body {
     justify-content: center;
 }
 
-.title {
+.card-title {
     color: #515151;
     font-weight: 400;
     font-size: 19px;
@@ -61,7 +68,7 @@ body {
     margin-bottom: 16px;
 }
 
-.subtitle {
+.card-subtitle {
     font-size: 12px;
     font-weight: 300;
     color: #808080;
@@ -69,7 +76,7 @@ body {
     max-width: 251px;
 }
 
-.description {
+.card-description {
     font-size: 9px;
     font-weight: 300;
     color: #808080;
@@ -78,7 +85,7 @@ body {
     margin-top: 23px;
 }
 
-.verify-button {
+.btn-primary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,4 +111,53 @@ body {
 
 .confirmation-link span {
     color: #000000;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
+}
+
+.social-icons img {
+    width: 26.6px;
+    height: 26.6px;
+    cursor: pointer;
+}
+
+.footer-links {
+    font-size: 9px;
+    font-weight: 300;
+    color: #808080;
+    text-align: center;
+    margin-top: 27.4px;
+    margin-bottom: 29px;
+    text-decoration: underline;
+}
+
+.footer-note {
+    display: flex;
+    width: 355px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.note-text {
+    font-size: 9px;
+    font-weight: 400;
+    color: #595959;
+    text-align: center;
+}
+
+.note-text span {
+    color: #006996;
+    text-decoration: underline;
 }
