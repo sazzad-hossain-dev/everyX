@@ -1,19 +1,19 @@
 :root {
   /* Base Colors */
   --color-white: #ffffff;
-  --color-black: #0E0E0E;
+  --color-black: #0e0e0e;
 
   /* Text Colors */
-  --text-light: #FDFDFD;
-  --text-dark: #0E0E0E;
+  --text-light: #fdfdfd;
+  --text-dark: #0e0e0e;
   --text-muted: #808080;
   --text-note: #595959;
   --text-link: #006996;
-  --text-error:#FF4E00;
+  --text-error: #ff4e00;
 
   /* Backgrounds */
-  --bg-primary: #0E0E0E;
-  --card-bg:#101010;
+  --bg-primary: #0e0e0e;
+  --card-bg: #101010;
   --bg-input: #252525;
   --bg-icon-hover: rgba(255, 255, 255, 0.1);
 
@@ -43,7 +43,7 @@ body {
   margin-bottom: 121.41px;
 }
 .card-logo img {
-    width: 119px;
+  width: 119px;
 }
 
 .card-image {
@@ -56,7 +56,7 @@ body {
 .container {
   width: 100%;
   max-width: 768px;
-  padding: 0 0 0 43px;
+  padding: 0 44px;
   margin: auto;
 }
 
@@ -64,6 +64,12 @@ body {
   color: var(--text-light);
   font-weight: 600;
   font-size: 27px;
+  margin-bottom: 40px;
+}
+.title-compresed {
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 25px;
   margin-bottom: 40px;
 }
 
@@ -80,17 +86,21 @@ body {
   color: var(--text-light);
 }
 /* Utility classes for margins */
-.mt-15 { margin-top: 15px; }
-.mb-107 { margin-bottom: 107px; }
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-107 {
+  margin-bottom: 107px;
+}
 
 /* buttons section */
 
 .btn-container {
-    display: flex;
-    justify-content: center;
-    column-gap: 28px;
-    margin-top: 27px;
-    margin-bottom: 61px;
+  display: flex;
+  justify-content: center;
+  column-gap: 28px;
+  margin-top: 27px;
+  margin-bottom: 61px;
 }
 .btn-secondary {
   display: flex;
@@ -104,8 +114,8 @@ body {
   background: var(--color-black);
   font-family: "Inter", sans-serif;
 }
-.withdrawal-failed-button{
-    display: flex;
+.withdrawal-failed-button {
+  display: flex;
   justify-content: center;
   align-items: center;
   border: none;
@@ -177,7 +187,6 @@ body {
 
 /* Calculation card */
 
-
 .card-extra-content {
   width: 304px;
   background-color: #eaeaea;
@@ -186,7 +195,7 @@ body {
 }
 .calculation-card {
   width: 304px;
-  background-color:var(--card-bg);
+  background-color: var(--card-bg);
   filter: drop-shadow(var(--shadow-default));
   border-radius: 10px;
 }
@@ -204,12 +213,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.btn-white-border{
-    padding: 8px 24px;
-    border: 1px solid var(--color-white);
-    border-radius: 4px;
-    margin-top: 31.42px;
-    margin-bottom: 21.69px;
+.btn-white-border {
+  padding: 8px 24px;
+  border: 1px solid var(--color-white);
+  border-radius: 4px;
+  margin-top: 31.42px;
+  margin-bottom: 21.69px;
 }
 .content-card-btn-primery {
   padding: 6px 14px;
@@ -248,26 +257,26 @@ body {
   padding-bottom: 7px;
 }
 .calculation-card-error {
-    color: var(--text-muted);
-    font-weight: 500;
-    font-size: 9px;
-    margin-top: 12px;
-    margin-bottom: 18.5px;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 9px;
+  margin-top: 12px;
+  margin-bottom: 18.5px;
 }
 .mb-0 {
   margin-bottom: 0 !important;
 }
-.withdrwal-failed-btn-container{
-    display: flex;
-    justify-content: center;
-    margin: 27px 0 23.5px 0;
+.withdrwal-failed-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 27px 0 23.5px 0;
 }
-.contact-support-link{
-    font-size: 9px;
-    font-weight: 500;
-    color: var(--color-white);
-    text-align: center;
-    margin-bottom: 26.5px;
+.contact-support-link {
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 26.5px;
 }
 .content-card-current-balance-text {
   font-size: 10px;
@@ -284,11 +293,11 @@ body {
 }
 .content-card-amount-text .plus {
   font-size: 20px;
-  color:var(--color-white);
+  color: var(--color-white);
 }
 .content-card-amount-text .doller {
   font-size: 13px;
-  color:var(--color-white);
+  color: var(--color-white);
 }
 .dot-container {
   display: flex;
@@ -371,13 +380,6 @@ body {
   padding: 0 8px;
 }
 
-
-
-
-
-
-
-
 /* new style  */
 .card-error-message {
   font-size: 9px;
@@ -418,7 +420,6 @@ body {
 .mb-32 {
   margin-bottom: 32px;
 }
-
 
 .card-logo-small {
   padding-top: 39px;
