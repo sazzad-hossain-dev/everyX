@@ -239,6 +239,24 @@ body {
   margin-top: 31.42px;
   margin-bottom: 21.69px;
 }
+.current-balance{
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--color-white);
+  margin: 36.42px 0 5px 0;
+}
+.btn-primary-rounded{
+  font-size: 10px;
+  font-weight: 500;
+  color:var(--card-bg);
+  background-color: var(--color-white);
+  padding: 12px 24px;
+  margin-bottom: 23px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
 .content-card-btn-primery {
   padding: 6px 14px;
   font-family: "Inter", sans-serif;
