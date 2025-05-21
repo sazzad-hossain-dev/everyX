@@ -327,6 +327,12 @@ body {
   margin-bottom: 5px;
   margin-top: 34.42px;
 }
+.btn-con-14{
+  margin-top: 38px;
+  margin-bottom: 37px;
+  display: flex;
+  justify-content: center;
+}
 .content-card-amount-text {
   font-size: 22px;
   font-weight: 700;
@@ -432,31 +438,31 @@ body {
   margin-top: 16px;
 }
 
-.whats-new-container {
+/* .whats-new-container {
   padding: 38px 23px 0 23px;
-}
+} */
 
 .intro-text {
   font-size: 11px;
-  color: #595959;
+  color: var(--color-white);
   margin-bottom: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .whats-new-header {
   font-size: 11px;
-  color: #595959;
+  color:  var(--color-white);
   margin-bottom: 16px;
   font-weight: 600;
 }
 .whats-new-list {
   font-size: 11px;
-  color: #595959;
-  font-weight: 400;
+  color:  var(--color-white);
+  font-weight: 300;
   list-style-position: inside;
 }
 .card-description .bold {
-  color: #686868;
+  color:  var(--color-white);
   font-weight: 600;
 }
 .mb-32 {
