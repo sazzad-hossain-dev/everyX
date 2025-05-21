@@ -333,6 +333,32 @@ body {
   display: flex;
   justify-content: center;
 }
+.btn-border-rounded{
+  padding: 9px 18px;
+  border: 1px solid var(--color-white);
+  border-radius: 15px;
+  
+}
+.btn-con-15{
+  display: flex;
+  
+}
+.small-text-15{
+  font-size: 9px;
+  font-weight: 300;
+  color: var(--text-light);
+  line-height: 15px;
+  margin-bottom: 19.5px;
+}
+.small-text-bold{
+  font-size: 9px;
+  color: var(--text-light);
+  margin-top: 23px;
+  margin-bottom: 153px;
+}
+.small-text-bold span {
+  font-weight: bold;
+}
 .content-card-amount-text {
   font-size: 22px;
   font-weight: 700;
