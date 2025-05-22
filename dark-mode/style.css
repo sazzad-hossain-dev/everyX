@@ -374,7 +374,7 @@ body {
 }
 .dot-container {
   display: flex;
-  margin-top: 12px;
+  margin-top: 10px;
   justify-content: center;
   column-gap: 3px;
 }
@@ -896,7 +896,9 @@ body {
   border-radius: 8px;
   position: relative;
 }
-
+.card-content.bg{
+  background-color: #101010;
+}
 .card-header {
   display: flex;
   align-items: center;
@@ -948,7 +950,10 @@ body {
   margin-bottom: 1px;
   font-weight: bold;
 }
-
+.card-closed-time.gray1 {
+  color: white;
+  opacity: 50%;
+}
 .card-closed-time.profit {
   color: #94f201;
 }
@@ -1005,12 +1010,37 @@ body {
   border-radius: 4px;
   padding-right: 12px;
 }
-
+.chart-23 img {
+  width: 110px;
+}
+.trade-card-cons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 .card-trade-indicator {
   width: 3px;
   height: 100%;
   border-radius: 12px;
   background: linear-gradient(to bottom, #ff4e00, #ffcc00);
+}
+.card-trade-indicator-2 {
+  width: 3px;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(to bottom, #00fe95, #01fd4a);
+}
+.card-trade-indicator-3 {
+  width: 3px;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(to bottom, #bf01b7, #fc0172);
+}
+.card-trade-indicator-4 {
+  width: 3px;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(to bottom, #d9ff00, #d9ff00);
 }
 
 .card-trade-details {
@@ -1027,6 +1057,11 @@ body {
   font-weight: bold;
   margin: 0;
 }
+.card-outcome-sm {
+  color: white;
+  font-size: 8px;
+  margin: 0;
+}
 .probability-con {
   display: flex;
   gap: 8px;
@@ -1036,6 +1071,11 @@ body {
   color: white;
   font-size: 10px;
   font-weight: bold;
+  margin: 0;
+}
+.card-probability-sm {
+  color: white;
+  font-size: 8px;
   margin: 0;
 }
 .side-probability {
