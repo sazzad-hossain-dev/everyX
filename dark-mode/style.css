@@ -1027,12 +1027,25 @@ body {
   font-weight: bold;
   margin: 0;
 }
-
+.probability-con {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 .card-probability {
   color: white;
   font-size: 10px;
   font-weight: bold;
   margin: 0;
+}
+.side-probability {
+  color: #ff4e00;
+  font-size: 5px;
+  font-weight: bold;
+  margin: 0;
+  border-radius: 3px;
+  padding: 2px;
+  border: 1px solid #ff4e00;
 }
 
 .card-stats {
@@ -1078,7 +1091,6 @@ body {
   padding: 0 1px;
 }
 
-
 .card-arrow-container {
   flex: 1;
   display: flex;
@@ -1092,7 +1104,7 @@ body {
   font-size: 12px;
 }
 .card-arrow-title-red {
-  color: #FF4E00;
+  color: #ff4e00;
   font-weight: 700;
   font-size: 12px;
 }
