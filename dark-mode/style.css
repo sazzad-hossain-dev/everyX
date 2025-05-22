@@ -1078,6 +1078,7 @@ body {
   padding: 0 1px;
 }
 
+
 .card-arrow-container {
   flex: 1;
   display: flex;
@@ -1087,6 +1088,11 @@ body {
 }
 .card-arrow-title {
   color: #94f201;
+  font-weight: 700;
+  font-size: 12px;
+}
+.card-arrow-title-red {
+  color: #FF4E00;
   font-weight: 700;
   font-size: 12px;
 }
